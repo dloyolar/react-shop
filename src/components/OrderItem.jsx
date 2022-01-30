@@ -11,7 +11,7 @@ export const OrderItem = ({ product }) => {
       </figure>
       <p>{product.title}</p>
       <p>${product.price}</p>
-      <img src={close} alt="close" />
+      <img src={close} alt="close" className="close-img" />
     </div>
   );
 };
